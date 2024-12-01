@@ -1,5 +1,5 @@
 document.getElementById('log-out').addEventListener('click', function(){
-  window.location= './login.html'
+  window.location= './index.html'
 })
 
 var login = document.getElementById("signupname")

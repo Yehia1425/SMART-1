@@ -6,7 +6,7 @@ var Login=[];
 
 
 document.getElementById('signup').addEventListener('click', function(){
-    window.location= './login.html'
+    window.location= './index.html'
 })
 
 
