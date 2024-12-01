@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    
+
+    <section>
+        <div class="container my-5 text-center">
+            <div class="conatant m-auto w-75 p-5 ">
+                <h1>Smart Login System</h1>
+                <input  oninput="validationName()"   id="signupname" class="form-control my-3 color" placeholder="Enter your Name" type="text">
+                <p id="msgname" class="alert alert-danger d-none">You must start with a letter, be 3 to 19 characters long, and can only contain letters, numbers, or underscroces</p>
+                <input  oninput="validationemail()" id="signupemail" class="form-control my-3 color" placeholder="Enter your Email" type="email">
+                <p class="alert alert-danger d-none" id="masemail">You must Gmail</p>
+                <input  oninput="validationpassword()" id="signuppassword" class="form-control my-3 color" placeholder="Enter your Password" type="password">
+                <p class="alert alert-danger d-none" id="maspassword">You must Strong Password</p>
+                <button id="signup" onclick="addEmail()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account?
+                    <a id="Signin" class="text-white" href="">Sign in</a>
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/home.js"></script>
+
+    <script></script>
+</body>
+</html>

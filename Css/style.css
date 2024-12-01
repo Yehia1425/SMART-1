@@ -1,0 +1,60 @@
+body{
+    background-color: #24353f;
+
+    text-decoration: none;
+}
+
+h1{
+    color: RGB(23, 162, 184);
+    font-size: 40px;
+    font-weight:500 ;
+    font-family: "Titillium Web", sans-serif !important;
+
+}
+input{
+    background-color: #24353f !important;
+    color:#24353F !important;
+ 
+}
+
+
+
+.my-nav{
+    background-color: #24353f;
+
+}
+
+
+.home{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.my-marg{
+    margin-top: 10rem;
+}
+
+
+.color2{
+    color: #fff;
+}
+
+.color{
+
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+.conatant{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+}
+
+
+
+
